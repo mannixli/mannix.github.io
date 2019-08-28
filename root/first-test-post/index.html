@@ -46,6 +46,8 @@
     
     <title>
         
+            first test post | 
+        
         Mannix
     </title>
 
@@ -55,7 +57,7 @@
 
     <meta name="format-detection" content="telephone=no">
     <meta name="description" itemprop="description" content="学习积累">
-    <meta name="keywords" content>
+    <meta name="keywords" content=",test">
     <meta name="theme-color" content="#0097A7">
 
     <!-- Disable Fucking Bloody Baidu Tranformation -->
@@ -216,7 +218,7 @@
     <!-- WebAPP Icons -->
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="application-name" content="Mannix">
-    <meta name="msapplication-starturl" content="http://yoursite.com/">
+    <meta name="msapplication-starturl" content="http://yoursite.com/root/first-test-post/">
     <meta name="msapplication-navbutton-color" content="#0097A7">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-title" content="Mannix">
@@ -231,13 +233,16 @@
     
 
     <!-- The Open Graph protocol -->
-    <meta property="og:url" content="http://yoursite.com/">
+    <meta property="og:url" content="http://yoursite.com/root/first-test-post/">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="Mannix">
+    <meta property="og:title" content="first test post | Mannix">
     <meta property="og:image" content="/img/favicon.png">
     <meta property="og:description" content="学习积累">
-    
+    <meta property="og:article:tag" content="test"> 
 
+    
+        <meta property="article:published_time" content="Wed Aug 28 2019 10:29:57 GMT+0800">
+        <meta property="article:modified_time" content="Wed Aug 28 2019 10:31:43 GMT+0800">
     
 
     <!-- The Twitter Card protocol -->
@@ -245,35 +250,43 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="http://yoursite.com">
+        <link rel="canonical" href="http://yoursite.com/root/first-test-post/index.html">
     
 
     <!-- Structured-data for SEO -->
     
         
+
+
 <script type="application/ld+json">
 {
-    "@context": "http://schema.org",
-    "@type": "Website",
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": "http://yoursite.com/root/first-test-post/index.html",
+    "headline": "first test post",
+    "datePublished": "Wed Aug 28 2019 10:29:57 GMT+0800",
+    "dateModified": "Wed Aug 28 2019 10:31:43 GMT+0800",
+    "author": {
+        "@type": "Person",
+        "name": "mannixli",
+        "image": {
+            "@type": "ImageObject",
+            "url": "/img/avatar.png"
+        },
+        "description": "Hi, nice to meet you"
+    },
     "publisher": {
         "@type": "Organization",
         "name": "Mannix",
-        "logo": "/img/favicon.png"
+        "logo": {
+            "@type":"ImageObject",
+            "url": "/img/favicon.png"
+        }
     },
-    "url": "http://yoursite.com",
-    "image": {
-        "@type": "ImageObject",
-        "url": "/img/favicon.png"
-    },
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "http://yoursite.com"
-    },
-    "description": "学习积累"
+    "keywords": ",test",
+    "description": "学习积累",
 }
 </script>
-
-
 
 
     
@@ -307,277 +320,247 @@
                         </button>
                     
 
-                    <!-- Index Module -->
-<div class="material-index mdl-grid">
+                    <!-- Post TOC -->
+
     
-        <!-- Paradox Header -->
-        <!-- Daily pic -->
-<div class="mdl-card mdl-shadow--2dp daily-pic mdl-cell mdl-cell--8-col index-top-block">
-
-    <!-- Pic & Slogan -->
-    <div class="mdl-card__media mdl-color-text--grey-50" style="background-image:url(/img/daily_pic.png)">
-        <p class="index-top-block-slogan"><a href="#">
-        
-            
-                Hi, nice to meet you
-            
-        
-        </a></p>
-    </div>
-
-    <!-- Avatar & Name -->
-    <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
-        <!-- Author Avatar -->
-        <div id="author-avatar">
-            <img src="/img/avatar.png" width="32px" height="32px" alt="avatar">
-        </div>
-        <div>
-            <strong>mannixli</strong>
-        </div>
-    </div>
-</div>
-
-        <!-- Blog info -->
-<div class="mdl-card mdl-shadow--2dp something-else mdl-cell mdl-cell--8-col mdl-cell--4-col-desktop index-top-block">
-
-    <!-- Search -->
-    
-    <!-- Google -->
-    <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable" method="post" action="">
-        <label id="search-label" class="mdl-button mdl-js-ripple-effect mdl-js-button mdl-button--fab mdl-color--accent mdl-shadow--4dp" for="search">
-            <i class="material-icons mdl-color-text--white" role="presentation">search</i>
-        </label>
-
-        <form autocomplete="off" id="search-form" method="get" action="//google.com/search" accept-charset="UTF-8" class="mdl-textfield__expandable-holder" target="_blank">
-            <input class="mdl-textfield__input search-input" type="search" name="q" id="search" placeholder="">
-            <label id="search-form-label" class="mdl-textfield__label" for="search"></label>
-
-            <input type="hidden" name="sitesearch" value="http://yoursite.com">
-        </form>
-    </div>
-
-
-
-
-
-
-
-    <!-- LOGO -->
-    <div class="something-else-logo mdl-color--white mdl-color-text--grey-600">
-        <a href="#" target="_blank">
-            <img src="/img/logo.png" alt="logo" />
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
         </a>
     </div>
+    -->
 
-    <!-- Infomation -->
-    <div class="mdl-card__supporting-text meta meta--fill mdl-color-text--grey-600">
-        <!-- Blog Title -->
-        <div>
-            <strong>Mannix</strong>
-        </div>
-        <div class="section-spacer"></div>
 
-        <!-- Pages -->
-        <button id="show-pages-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-            <i class="material-icons" role="presentation">view_carousel</i>
-            <span class="visuallyhidden">Pages</span>
-        </button>
-        <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="show-pages-button">
-            
-        </ul>
-
-        <!-- Menu -->
-        <button id="menubtn" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-            <i class="material-icons" role="presentation">more_vert</i>
-            <span class="visuallyhidden">show menu</span>
-        </button>
-        <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="menubtn">
-            
-
-            
-
-            
-                <a class="index_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=Mannix&url=http://yoursite.com&pic=http://yoursite.com/img/favicon.png&searchPic=false&style=simple" target="_blank">
-                    <li class="mdl-menu__item mdl-js-ripple-effect">
-                        Compartir en Weibo
-                    </li>
-                </a>
-            
-
-            
-                <a class="index_share-link" href="https://twitter.com/intent/tweet?text=Mannix&url=http://yoursite.com&via=mannixli" target="_blank">
-                    <li class="mdl-menu__item mdl-js-ripple-effect">
-                        Compartir en Twitter
-                    </li>
-                </a>
-            
-
-            
-                <a class="index_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com" target="_blank">
-                    <li class="mdl-menu__item mdl-js-ripple-effect">
-                        Compartir en Facebook
-                    </li>
-                </a>
-            
-
-            
-                <a class="index_share-link" href="https://plus.google.com/share?url=http://yoursite.com" target="_blank">
-                    <li class="mdl-menu__item mdl-js-ripple-effect">
-                        Compartir en Google+
-                    </li>
-                </a>
-            
-
-            
-
-            
-
-            
-        </ul>
-    </div>
-</div>
-
+    <!-- Left aligned menu below button -->
     
-    <div class="locate-thumbnail-symbol"></div>
+    
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
 
-    <!-- Pin on top -->
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#第二章"><span class="post-toc-number">1.</span> <span class="post-toc-text">第二章</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#命名空间"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">命名空间</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#性状"><span class="post-toc-number">1.2.</span> <span class="post-toc-text">性状</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#生成器"><span class="post-toc-number">1.3.</span> <span class="post-toc-text">生成器</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#闭包"><span class="post-toc-number">1.4.</span> <span class="post-toc-text">闭包</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Zend-OPcache"><span class="post-toc-number">1.5.</span> <span class="post-toc-text">Zend OPcache</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#PHP内置web服务器"><span class="post-toc-number">1.6.</span> <span class="post-toc-text">PHP内置web服务器</span></a></li></ol></li></ol>
+    </ul>
     
 
-    <!-- Normal Post -->
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
     
         
             <!-- Random Thumbnail -->
             <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
+            <script type="text/ls-javascript" id="post-thumbnail-script">
+    var randomNum = Math.floor(Math.random() * 19 + 1);
 
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/root/first-test-post/">first test post</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            第二章
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/root/first-test-post/" target="_self">Sigue leyendo</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avatar.png" width="44px" height="44px" alt="mannixli's avatar">
-            </div>
-            <div>
-                <strong>mannixli</strong>
-                <span>Aug 28, 2019</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-          
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-            
-            
-        
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
-    
-        
-            <!-- Random Thumbnail -->
-            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
-
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/root/hello-world/">Hello World</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            Welcome to Hexo
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/root/hello-world/" target="_self">Sigue leyendo</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avatar.png" width="44px" height="44px" alt="mannixli's avatar">
-            </div>
-            <div>
-                <strong>mannixli</strong>
-                <span>Aug 27, 2019</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-          
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-            
-            
-        
-    
-
-    
-
-    
-        <script type="text/ls-javascript" id="thumbnail-script">
-    var randomNum;
-
-    var locatePost = $('.locate-thumbnail-symbol').next();
-    for(var i = 0; i < 10; i++) {
-        randomNum = Math.floor(Math.random() * 19 + 1);
-
-        locatePost.children('.post_thumbnail-random').attr('id', 'random_thumbnail-'+randomNum);
-        locatePost.children('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
+    $('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
     $('.post_thumbnail-random').addClass('lazy');
-
-        locatePost = locatePost.next();
-    }
 </script>
 
+        
+    
+            <p class="article-headline-p">
+                first test post
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/avatar.png" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>mannixli</strong>
+        <span>Aug 28, 2019</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+
+    <!-- Tags (bookmark) -->
+    
+    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">bookmark</i>
+        <span class="visuallyhidden">bookmark</span>
+    </button>
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
+        <li class="mdl-menu__item">
+        <a class="post_tag-link" href="/tags/test/">test</a>
+    </ul>
+    
+
+    <!-- Share -->
+    
+        <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+
+    
+
+    <!-- Share Weibo -->
+    
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=first test post&url=http://yoursite.com/root/first-test-post/index.html&pic=http://yoursite.com/img/favicon.png&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                Compartir en Weibo
+            </li>
+        </a>
+    
+
+    <!-- Share Twitter -->
+    
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=first test post&url=http://yoursite.com/root/first-test-post/index.html&via=mannixli" target="_blank">
+            <li class="mdl-menu__item">
+                Compartir en Twitter
+            </li>
+        </a>
+    
+
+    <!-- Share Facebook -->
+    
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/root/first-test-post/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                Compartir en Facebook
+            </li>
+        </a>
+    
+
+    <!-- Share Google+ -->
+    
+        <a class="post_share-link" href="https://plus.google.com/share?url=http://yoursite.com/root/first-test-post/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                Compartir en Google+
+            </li>
+        </a>
+    
+
+    <!-- Share LinkedIn -->
+    
+
+    <!-- Share QQ -->
+    
+
+    <!-- Share Telegram -->
+    
+</ul>
+
     
 </div>
+
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <h3 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h3><h4 id="命名空间"><a href="#命名空间" class="headerlink" title="命名空间"></a>命名空间</h4><ul>
+<li>namespace Oreilly\ModernPHP;</li>
+<li>使用<br>==use   Symphony\Component\HttpFoundation\Response as  Res==别名<br>$r = new Res(‘Oops’,400)；<br>函数 use func、常量 use constant，后直接调用；</li>
+</ul>
+<hr>
+<h4 id="性状"><a href="#性状" class="headerlink" title="性状"></a>性状</h4><ul>
+<li>use 性状 trait xx{}</li>
+<li>成为类的一部分，与引用类不同于不用初始化</li>
+<li>DRY原则 don’t repeat yourself</li>
+</ul>
+<hr>
+<h4 id="生成器"><a href="#生成器" class="headerlink" title="生成器"></a>生成器</h4><ul>
+<li>yield<h4 id="闭包"><a href="#闭包" class="headerlink" title="闭包"></a>闭包</h4></li>
+<li>PHP中闭包与匿名函数相同，均为Closure的实例</li>
+<li>use 附加状态 </li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">&lt;?php</span><br><span class="line">  function enclosePersion($name)&#123;</span><br><span class="line">      return function($doCommand) use($name) &#123; //把name变量附加给闭包，传入多个时用逗号隔开</span><br><span class="line">          return sprintf(&apos;%s,%s&apos;,$name,$doCommand);</span><br><span class="line">      &#125;</span><br><span class="line">  &#125;</span><br><span class="line">  </span><br><span class="line">  $clay = enclosePersion(&apos;Clay&apos;) // 把‘Clay’封装在闭包</span><br><span class="line">  echo $clay(&apos;get me some shit...&apos;)</span><br><span class="line">  // # &quot;Clay,get me some shit...&quot;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>bindTo 绑定路由路径，可使用此路径调用绑定的回掉函数。</li>
+</ul>
+<hr>
+<h4 id="Zend-OPcache"><a href="#Zend-OPcache" class="headerlink" title="Zend OPcache"></a>Zend OPcache</h4><ul>
+<li>预编译好PHP，存入缓存。直接执行不用每次读取解析编译了。</li>
+<li>opcache.validate_timestamps = 1 //开发环境检测到变化即更新，生产环境可以设置为0<h4 id="PHP内置web服务器"><a href="#PHP内置web服务器" class="headerlink" title="PHP内置web服务器"></a>PHP内置web服务器</h4></li>
+<li>在目录文档根目录下：php -S localhost:4000</li>
+<li>不适用于生产环境。</li>
+</ul>
+<hr>
+
+        
+    
+
+    
+</div>
+
+
+                
+
+                <!-- Post Comments -->
+                
+                    
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/root/hello-world/" id="post_nav-older" class="next-content">
+            Mayor
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+
+        </div>
+    </div>
+
 
 
                     
@@ -868,12 +851,6 @@ It will not impact the appearance and can give developers a lot of support :)
 
 
 
-
-    <!-- Swiftye -->
-    
-
-    <!-- Local Search-->
-    
 
 
 <!-- UC Browser Compatible -->
